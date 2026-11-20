@@ -1,0 +1,64 @@
+name: Publish requested release
+
+on:
+  push:
+    branches: [main]
+    paths: [release.json]
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: marionette-workflow-helper-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate version and build artifacts
+        run: python scripts/build_release.py --check-release-request
+      - name: Read requested version
+        id: request
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os, re
+          version = json.load(open('release.json', encoding='utf-8'))['version']
+          if not re.fullmatch(r'\d+\.\d+\.\d+', version):
+              raise SystemExit('Expected numeric major.minor.patch release version')
+          ref = os.environ['GITHUB_REF']
+          if ref.startswith('refs/tags/') and ref != 'refs/tags/v' + version:
+              raise SystemExit('Tag differs from requested version')
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+              output.write('version=' + version + '\n')
+          PY
+      - name: Create release without overwriting existing assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          VERSION: ${{ steps.request.outputs.version }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="v${VERSION}"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; no assets were changed."
+            exit 0
+          fi
+          test -f "docs/releases/${VERSION}.md"
+          gh release create "$tag" \
+            "dist/marionette_workflow-${VERSION}.zip" \
+            "dist/Marionette_Workflow_Pack_${VERSION}.zip" \
+            "dist/SHA256SUMS.txt" \
+            --target "$GITHUB_SHA" \
+            --title "Marionette Workflow Helper ${VERSION}" \
+            --notes-file "docs/releases/${VERSION}.md"

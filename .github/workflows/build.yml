@@ -1,0 +1,27 @@
+name: Validate package
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile Python source
+        run: python -m compileall -q marionette_workflow scripts tests
+      - name: Validate and build release archives
+        run: python scripts/build_release.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: marionette-workflow-helper-package
+          path: dist/*
+          if-no-files-found: error

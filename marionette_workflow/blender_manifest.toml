@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+id = "marionette_workflow"
+version = "1.4.0"
+name = "Marionette Workflow Helper"
+tagline = "Calibrate Mixamo and Tripo captures and transfer takes to NLA"
+maintainer = "Killian Pichon"
+type = "add-on"
+tags = ["Animation", "Rigging"]
+blender_version_min = "5.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Export character-specific Marionette mapping and reference-pose presets"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc"]

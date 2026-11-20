@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+build/
+dist/
+*_profile/
+*_profile_*/
+*.blend
+*.blend1
+*.blend2
+*.fbx
+*.log
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
