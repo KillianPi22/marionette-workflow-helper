@@ -1,0 +1,2056 @@
+{
+  "version": 3,
+  "program": "blender",
+  "presets": {
+    "Tripo - Full FK - Character Calibrated": {
+      "enable_ik": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "bone_map": [
+        [
+          "Hips",
+          "mixamorig:Hips",
+          true,
+          true
+        ],
+        [
+          "Spine",
+          "mixamorig:Spine",
+          true,
+          true
+        ],
+        [
+          "Chest",
+          "mixamorig:Spine1",
+          true,
+          true
+        ],
+        [
+          "UpperChest",
+          "mixamorig:Spine2",
+          true,
+          true
+        ],
+        [
+          "Neck",
+          "mixamorig:Neck",
+          true,
+          true
+        ],
+        [
+          "Head",
+          "mixamorig:Head",
+          true,
+          true
+        ],
+        [
+          "LeftUpperLeg",
+          "mixamorig:LeftUpLeg",
+          true,
+          true
+        ],
+        [
+          "LeftLowerLeg",
+          "mixamorig:LeftLeg",
+          true,
+          true
+        ],
+        [
+          "LeftFoot",
+          "mixamorig:LeftFoot",
+          true,
+          true
+        ],
+        [
+          "LeftToes",
+          "mixamorig:LeftToeBase",
+          true,
+          true
+        ],
+        [
+          "LeftShoulder",
+          "mixamorig:LeftShoulder",
+          true,
+          true
+        ],
+        [
+          "LeftUpperArm",
+          "mixamorig:LeftArm",
+          true,
+          true
+        ],
+        [
+          "LeftLowerArm",
+          "mixamorig:LeftForeArm",
+          true,
+          true
+        ],
+        [
+          "LeftHand",
+          "mixamorig:LeftHand",
+          true,
+          true
+        ],
+        [
+          "RightUpperLeg",
+          "mixamorig:RightUpLeg",
+          true,
+          true
+        ],
+        [
+          "RightLowerLeg",
+          "mixamorig:RightLeg",
+          true,
+          true
+        ],
+        [
+          "RightFoot",
+          "mixamorig:RightFoot",
+          true,
+          true
+        ],
+        [
+          "RightToes",
+          "mixamorig:RightToeBase",
+          true,
+          true
+        ],
+        [
+          "RightShoulder",
+          "mixamorig:RightShoulder",
+          true,
+          true
+        ],
+        [
+          "RightUpperArm",
+          "mixamorig:RightArm",
+          true,
+          true
+        ],
+        [
+          "RightLowerArm",
+          "mixamorig:RightForeArm",
+          true,
+          true
+        ],
+        [
+          "RightHand",
+          "mixamorig:RightHand",
+          true,
+          true
+        ],
+        [
+          "LeftThumbProximal",
+          "mixamorig:LeftHandThumb1",
+          true,
+          true
+        ],
+        [
+          "LeftThumbIntermediate",
+          "mixamorig:LeftHandThumb2",
+          true,
+          true
+        ],
+        [
+          "LeftThumbDistal",
+          "mixamorig:LeftHandThumb3",
+          true,
+          true
+        ],
+        [
+          "LeftIndexProximal",
+          "mixamorig:LeftHandIndex1",
+          true,
+          true
+        ],
+        [
+          "LeftIndexIntermediate",
+          "mixamorig:LeftHandIndex2",
+          true,
+          true
+        ],
+        [
+          "LeftIndexDistal",
+          "mixamorig:LeftHandIndex3",
+          true,
+          true
+        ],
+        [
+          "LeftMiddleProximal",
+          "mixamorig:LeftHandMiddle1",
+          true,
+          true
+        ],
+        [
+          "LeftMiddleIntermediate",
+          "mixamorig:LeftHandMiddle2",
+          true,
+          true
+        ],
+        [
+          "LeftMiddleDistal",
+          "mixamorig:LeftHandMiddle3",
+          true,
+          true
+        ],
+        [
+          "LeftRingProximal",
+          "mixamorig:LeftHandRing1",
+          true,
+          true
+        ],
+        [
+          "LeftRingIntermediate",
+          "mixamorig:LeftHandRing2",
+          true,
+          true
+        ],
+        [
+          "LeftRingDistal",
+          "mixamorig:LeftHandRing3",
+          true,
+          true
+        ],
+        [
+          "LeftLittleProximal",
+          "mixamorig:LeftHandPinky1",
+          true,
+          true
+        ],
+        [
+          "LeftLittleIntermediate",
+          "mixamorig:LeftHandPinky2",
+          true,
+          true
+        ],
+        [
+          "LeftLittleDistal",
+          "mixamorig:LeftHandPinky3",
+          true,
+          true
+        ],
+        [
+          "RightThumbProximal",
+          "mixamorig:RightHandThumb1",
+          true,
+          true
+        ],
+        [
+          "RightThumbIntermediate",
+          "mixamorig:RightHandThumb2",
+          true,
+          true
+        ],
+        [
+          "RightThumbDistal",
+          "mixamorig:RightHandThumb3",
+          true,
+          true
+        ],
+        [
+          "RightIndexProximal",
+          "mixamorig:RightHandIndex1",
+          true,
+          true
+        ],
+        [
+          "RightIndexIntermediate",
+          "mixamorig:RightHandIndex2",
+          true,
+          true
+        ],
+        [
+          "RightIndexDistal",
+          "mixamorig:RightHandIndex3",
+          true,
+          true
+        ],
+        [
+          "RightMiddleProximal",
+          "mixamorig:RightHandMiddle1",
+          true,
+          true
+        ],
+        [
+          "RightMiddleIntermediate",
+          "mixamorig:RightHandMiddle2",
+          true,
+          true
+        ],
+        [
+          "RightMiddleDistal",
+          "mixamorig:RightHandMiddle3",
+          true,
+          true
+        ],
+        [
+          "RightRingProximal",
+          "mixamorig:RightHandRing1",
+          true,
+          true
+        ],
+        [
+          "RightRingIntermediate",
+          "mixamorig:RightHandRing2",
+          true,
+          true
+        ],
+        [
+          "RightRingDistal",
+          "mixamorig:RightHandRing3",
+          true,
+          true
+        ],
+        [
+          "RightLittleProximal",
+          "mixamorig:RightHandPinky1",
+          true,
+          true
+        ],
+        [
+          "RightLittleIntermediate",
+          "mixamorig:RightHandPinky2",
+          true,
+          true
+        ],
+        [
+          "RightLittleDistal",
+          "mixamorig:RightHandPinky3",
+          true,
+          true
+        ],
+        [
+          "LeftEye",
+          "",
+          false,
+          false
+        ],
+        [
+          "RightEye",
+          "",
+          false,
+          false
+        ],
+        [
+          "LeftArmBendGoal",
+          "",
+          false,
+          false
+        ],
+        [
+          "RightArmBendGoal",
+          "",
+          false,
+          false
+        ],
+        [
+          "LeftLegBendGoal",
+          "",
+          false,
+          false
+        ],
+        [
+          "RightLegBendGoal",
+          "",
+          false,
+          false
+        ]
+      ],
+      "tpose": [
+        {
+          "bone_name": "mixamorig:Hips",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.0018996833823621273,
+            -0.00949785951524973,
+            0.5316448211669922
+          ],
+          "world_rotation": [
+            0.5000000596046448,
+            0.5000000596046448,
+            -0.4999999403953552,
+            -0.5
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftUpLeg",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.05508781969547272,
+            -0.009497856721282005,
+            0.5088498592376709
+          ],
+          "world_rotation": [
+            0.5213887691497803,
+            -0.4776551425457001,
+            0.4776550829410553,
+            -0.5213881731033325
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftLeg",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.07408357411623001,
+            -0.009497864171862602,
+            0.29229825735092163
+          ],
+          "world_rotation": [
+            0.6166852712631226,
+            -0.4642665684223175,
+            0.46426716446876526,
+            -0.4342937171459198
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftFoot",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.09687846899032593,
+            0.03229282796382904,
+            0.07954540848731995
+          ],
+          "world_rotation": [
+            0.1547376662492752,
+            -0.299691379070282,
+            0.29968589544296265,
+            -0.8924289345741272
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftToeBase",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.1044766902923584,
+            -0.028493553400039673,
+            0.030156437307596207
+          ],
+          "world_rotation": [
+            0.0621359758079052,
+            1.5056808479130268e-05,
+            9.779159881873056e-07,
+            -0.9980676770210266
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftToe_End",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.10957890748977661,
+            -0.06931193172931671,
+            0.030156636610627174
+          ],
+          "world_rotation": [
+            0.06213557347655296,
+            1.370480617879366e-06,
+            1.562932823162555e-07,
+            -0.9980677366256714
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightUpLeg",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.05128847062587738,
+            -0.009497864171862602,
+            0.5088498592376709
+          ],
+          "world_rotation": [
+            0.4776551127433777,
+            -0.5213881731033325,
+            0.5213887691497803,
+            -0.4776551425457001
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightLeg",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.07028422504663467,
+            -0.009497875347733498,
+            0.29229819774627686
+          ],
+          "world_rotation": [
+            0.5781708359718323,
+            -0.5115872025489807,
+            0.51158607006073,
+            -0.3771924674510956
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightFoot",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.08928003162145615,
+            0.03229280188679695,
+            0.07954539358615875
+          ],
+          "world_rotation": [
+            0.04754473268985748,
+            -0.33724352717399597,
+            0.33723312616348267,
+            -0.8776558637619019
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightToeBase",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.10067740082740784,
+            -0.02849365398287773,
+            0.030156444758176804
+          ],
+          "world_rotation": [
+            0.09253829717636108,
+            -1.2855170098191593e-05,
+            1.2084541367585189e-06,
+            0.9957091212272644
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightToe_End",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.10833070427179337,
+            -0.06931202113628387,
+            0.030156387016177177
+          ],
+          "world_rotation": [
+            0.09253881871700287,
+            1.6139081253641052e-06,
+            -3.387370952623314e-07,
+            0.9957091212272644
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:Spine",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.0018996878061443567,
+            -0.005698705092072487,
+            0.5848329067230225
+          ],
+          "world_rotation": [
+            0.5000000596046448,
+            0.5000000596046448,
+            -0.4999999403953552,
+            -0.5
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:Spine1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.0018996921135112643,
+            -0.00569870276376605,
+            0.6342219114303589
+          ],
+          "world_rotation": [
+            0.5311891436576843,
+            0.4990262985229492,
+            -0.4990262985229492,
+            -0.46881088614463806
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:Spine2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.001899697002954781,
+            -0.0018995539285242558,
+            0.6950082778930664
+          ],
+          "world_rotation": [
+            0.6229456663131714,
+            0.4846487045288086,
+            -0.4846487045288086,
+            -0.377054363489151
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftShoulder",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.03989125415682793,
+            0.020895378664135933,
+            0.725401759147644
+          ],
+          "world_rotation": [
+            0.748089075088501,
+            -0.04368634149432182,
+            0.043686360120773315,
+            -0.6607161164283752
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftArm",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            0.9935995936393738,
+            0.11208735406398773,
+            -4.100782824423277e-09,
+            -0.014010975137352943
+          ],
+          "world_position": [
+            0.10067766159772873,
+            0.02849367819726467,
+            0.7178034782409668
+          ],
+          "world_rotation": [
+            0.7071067690849304,
+            -4.938260644848924e-07,
+            -5.336680146683648e-07,
+            -0.7071067690849304
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftForeArm",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            0.9876745343208313,
+            -0.14547713100910187,
+            -1.4332761111290893e-07,
+            0.0577530711889267
+          ],
+          "world_position": [
+            0.23713016510009766,
+            0.028493674471974373,
+            0.7178034782409668
+          ],
+          "world_rotation": [
+            0.707099199295044,
+            0.0032508482690900564,
+            0.0032524855341762304,
+            -0.7070993781089783
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHand",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.35004717111587524,
+            0.028493685647845268,
+            0.7178034782409668
+          ],
+          "world_rotation": [
+            0.6953480243682861,
+            -0.06592554599046707,
+            0.06590113043785095,
+            -0.7126022577285767
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandIndex1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.4212251603603363,
+            0.0014948472380638123,
+            0.7008429765701294
+          ],
+          "world_rotation": [
+            0.6364758014678955,
+            -0.12790699303150177,
+            0.11935032904148102,
+            -0.7511950135231018
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandIndex2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.4401124119758606,
+            -0.001796349766664207,
+            0.6938627362251282
+          ],
+          "world_rotation": [
+            0.6030888557434082,
+            -0.2576753795146942,
+            0.23769748210906982,
+            -0.7165104150772095
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandIndex3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.45417267084121704,
+            -0.00482106814160943,
+            0.6815144419670105
+          ],
+          "world_rotation": [
+            0.603087842464447,
+            -0.2576711177825928,
+            0.23769992589950562,
+            -0.7165120244026184
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandIndex4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.4678623080253601,
+            -0.007766055408865213,
+            0.669491708278656
+          ],
+          "world_rotation": [
+            0.6030893325805664,
+            -0.257686048746109,
+            0.23769663274288177,
+            -0.7165064215660095
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandMiddle1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.42517176270484924,
+            0.01763228327035904,
+            0.7057390213012695
+          ],
+          "world_rotation": [
+            0.6812019348144531,
+            -0.022390147671103477,
+            0.025081481784582138,
+            -0.7313231825828552
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandMiddle2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.4487168788909912,
+            0.015960367396473885,
+            0.7041494846343994
+          ],
+          "world_rotation": [
+            0.6893196105957031,
+            -0.11635612696409225,
+            0.11195043474435806,
+            -0.7062342762947083
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandMiddle3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.4698875844478607,
+            0.01541054155677557,
+            0.6970330476760864
+          ],
+          "world_rotation": [
+            0.6893197894096375,
+            -0.11635531485080719,
+            0.11194932460784912,
+            -0.7062343955039978
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandMiddle4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.49107885360717773,
+            0.014860132709145546,
+            0.6899093985557556
+          ],
+          "world_rotation": [
+            0.6893196702003479,
+            -0.11635535210371017,
+            0.11194933205842972,
+            -0.7062345147132874
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandPinky1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.4202609658241272,
+            0.048910919576883316,
+            0.7030994892120361
+          ],
+          "world_rotation": [
+            0.7813933491706848,
+            -0.15909701585769653,
+            0.15776623785495758,
+            -0.582427978515625
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandPinky2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.43760526180267334,
+            0.05437494441866875,
+            0.6943788528442383
+          ],
+          "world_rotation": [
+            0.7779234647750854,
+            -0.22533220052719116,
+            0.2192332148551941,
+            -0.5440562963485718
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandPinky3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.44984719157218933,
+            0.05939270928502083,
+            0.6847326755523682
+          ],
+          "world_rotation": [
+            0.7779253125190735,
+            -0.22533243894577026,
+            0.21923163533210754,
+            -0.5440542697906494
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandPinky4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.46223780512809753,
+            0.06447148323059082,
+            0.6749693751335144
+          ],
+          "world_rotation": [
+            0.7779233455657959,
+            -0.22533097863197327,
+            0.21923334896564484,
+            -0.5440569519996643
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandRing1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.42674389481544495,
+            0.03489178046584129,
+            0.7051079869270325
+          ],
+          "world_rotation": [
+            0.7373707890510559,
+            -0.030544046312570572,
+            0.03615695238113403,
+            -0.6738279461860657
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandRing2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.44928136467933655,
+            0.036938562989234924,
+            0.7029765248298645
+          ],
+          "world_rotation": [
+            0.7531088590621948,
+            -0.08756104856729507,
+            0.08960451930761337,
+            -0.6458568572998047
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandRing3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.46898603439331055,
+            0.040035031735897064,
+            0.6978784203529358
+          ],
+          "world_rotation": [
+            0.7531090378761292,
+            -0.08755872398614883,
+            0.08960476517677307,
+            -0.645857036113739
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandRing4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.486648827791214,
+            0.04281064122915268,
+            0.6933086514472961
+          ],
+          "world_rotation": [
+            0.7531089782714844,
+            -0.08755634725093842,
+            0.08960489183664322,
+            -0.6458574533462524
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandThumb1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.3722325265407562,
+            0.01101880706846714,
+            0.7029229402542114
+          ],
+          "world_rotation": [
+            0.4336870610713959,
+            -0.21944856643676758,
+            0.19286607205867767,
+            -0.8523852229118347
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandThumb2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.38978803157806396,
+            -0.003714313730597496,
+            0.6890022158622742
+          ],
+          "world_rotation": [
+            0.3951864540576935,
+            -0.30063596367836,
+            0.2663924992084503,
+            -0.8261239528656006
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandThumb3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.40388360619544983,
+            -0.019324559718370438,
+            0.6696154475212097
+          ],
+          "world_rotation": [
+            0.3951859772205353,
+            -0.30063533782958984,
+            0.2663930356502533,
+            -0.8261241912841797
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:LeftHandThumb4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.4145244061946869,
+            -0.031109049916267395,
+            0.6549798846244812
+          ],
+          "world_rotation": [
+            0.39518609642982483,
+            -0.30063551664352417,
+            0.2663929760456085,
+            -0.8261241316795349
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:Neck",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.001899711787700653,
+            0.009497908875346184,
+            0.7557950615882874
+          ],
+          "world_rotation": [
+            0.26057368516921997,
+            0.438947856426239,
+            -0.4389474093914032,
+            -0.7394263744354248
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:Head",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.0018997523002326488,
+            -0.013296917080879211,
+            0.7975854873657227
+          ],
+          "world_rotation": [
+            0.2605741620063782,
+            0.43894779682159424,
+            -0.4389479458332062,
+            -0.7394258975982666
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:HeadTop_End",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            0.001899784430861473,
+            -0.06764186918735504,
+            0.8972180485725403
+          ],
+          "world_rotation": [
+            0.2605740427970886,
+            0.4389477074146271,
+            -0.43894779682159424,
+            -0.7394260764122009
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightShoulder",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.03609182685613632,
+            0.020895367488265038,
+            0.725401759147644
+          ],
+          "world_rotation": [
+            0.5598695874214172,
+            -0.4980878233909607,
+            0.4980880916118622,
+            0.43630579113960266
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightArm",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            0.9935995936393738,
+            -0.11208751052618027,
+            -6.326922097343868e-09,
+            0.014010967686772346
+          ],
+          "world_position": [
+            -0.0968783050775528,
+            0.028493674471974373,
+            0.7178034782409668
+          ],
+          "world_rotation": [
+            0.08770514279603958,
+            -0.7016465067863464,
+            0.7016465067863464,
+            0.08770522475242615
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightForeArm",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            0.9877001643180847,
+            0.004208341706544161,
+            -2.2126214105355757e-07,
+            -0.15630312263965607
+          ],
+          "world_position": [
+            -0.2333308756351471,
+            0.028493674471974373,
+            0.7178034782409668
+          ],
+          "world_rotation": [
+            0.5849259495735168,
+            -0.3973173201084137,
+            0.3973185420036316,
+            0.5849261283874512
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHand",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.3488433361053467,
+            0.028493674471974373,
+            0.7178034782409668
+          ],
+          "world_rotation": [
+            0.3802979588508606,
+            0.5092304944992065,
+            -0.5901266932487488,
+            0.4978034198284149
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandIndex1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4196627140045166,
+            0.002994367154315114,
+            0.700110673904419
+          ],
+          "world_rotation": [
+            0.41745725274086,
+            0.417725533246994,
+            -0.4959871768951416,
+            0.6365780830383301
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandIndex2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4390949010848999,
+            -0.000281450804322958,
+            0.694302499294281
+          ],
+          "world_rotation": [
+            0.017832426354289055,
+            -0.582332968711853,
+            0.6582742929458618,
+            -0.47670257091522217
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandIndex3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.45285850763320923,
+            -0.0027180269826203585,
+            0.6823986768722534
+          ],
+          "world_rotation": [
+            0.017834238708019257,
+            -0.5823395848274231,
+            0.658274233341217,
+            -0.4766945540904999
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandIndex4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4662463963031769,
+            -0.005088051315397024,
+            0.6708197593688965
+          ],
+          "world_rotation": [
+            0.01783396676182747,
+            -0.5823331475257874,
+            0.658274233341217,
+            -0.47670242190361023
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandMiddle1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.422985702753067,
+            0.01881387270987034,
+            0.704529881477356
+          ],
+          "world_rotation": [
+            0.6764588952064514,
+            -0.13124926388263702,
+            0.09698435664176941,
+            0.718172013759613
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandMiddle2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4471188485622406,
+            0.017216527834534645,
+            0.7036035656929016
+          ],
+          "world_rotation": [
+            0.27278009057044983,
+            0.5510234832763672,
+            -0.6319834589958191,
+            0.4717637300491333
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandMiddle3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4682510793209076,
+            0.016056152060627937,
+            0.6970532536506653
+          ],
+          "world_rotation": [
+            0.27277928590774536,
+            0.5510240793228149,
+            -0.6319839358329773,
+            0.47176283597946167
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandMiddle4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4893587827682495,
+            0.014897237531840801,
+            0.690510094165802
+          ],
+          "world_rotation": [
+            0.2727791368961334,
+            0.5510241389274597,
+            -0.631983757019043,
+            0.47176307439804077
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandPinky1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4192012548446655,
+            0.05025620758533478,
+            0.7023987770080566
+          ],
+          "world_rotation": [
+            0.4746710956096649,
+            -0.5942073464393616,
+            0.6342970728874207,
+            0.13882462680339813
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandPinky2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.43643611669540405,
+            0.055224403738975525,
+            0.6948476433753967
+          ],
+          "world_rotation": [
+            0.5074697732925415,
+            -0.5870956182479858,
+            0.6306703090667725,
+            0.006941995117813349
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandPinky3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.44895461201667786,
+            0.06042466312646866,
+            0.6850165724754333
+          ],
+          "world_rotation": [
+            0.5074702501296997,
+            -0.5870951414108276,
+            0.6306701898574829,
+            0.006945965811610222
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandPinky4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4615672528743744,
+            0.06566405296325684,
+            0.6751109957695007
+          ],
+          "world_rotation": [
+            0.5074681043624878,
+            -0.5870949029922485,
+            0.6306721568107605,
+            0.006945684552192688
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandRing1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4252122640609741,
+            0.03589201346039772,
+            0.7038537859916687
+          ],
+          "world_rotation": [
+            0.016825014725327492,
+            -0.6728042364120483,
+            0.7395745515823364,
+            -0.008991247043013573
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandRing2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4483397603034973,
+            0.03808904066681862,
+            0.7030178904533386
+          ],
+          "world_rotation": [
+            0.32291242480278015,
+            -0.6384744048118591,
+            0.6879892349243164,
+            0.12144498527050018
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandRing3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4684889018535614,
+            0.04135695844888687,
+            0.69785475730896
+          ],
+          "world_rotation": [
+            0.3229080140590668,
+            -0.63847416639328,
+            0.6879914402961731,
+            0.121445432305336
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandRing4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.48688846826553345,
+            0.04434097930788994,
+            0.6931394338607788
+          ],
+          "world_rotation": [
+            0.32291051745414734,
+            -0.6384745240211487,
+            0.6879902482032776,
+            0.12144365161657333
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandThumb1",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.37101271748542786,
+            0.010682727210223675,
+            0.7026646733283997
+          ],
+          "world_rotation": [
+            0.22844670712947845,
+            0.3458178639411926,
+            -0.41819486021995544,
+            0.8082915544509888
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandThumb2",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.3890722393989563,
+            -0.004286549054086208,
+            0.6884574890136719
+          ],
+          "world_rotation": [
+            0.07598276436328888,
+            0.4111177921295166,
+            -0.48408079147338867,
+            0.768683671951294
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandThumb3",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.403531551361084,
+            -0.01888439990580082,
+            0.6693113446235657
+          ],
+          "world_rotation": [
+            0.07598186284303665,
+            0.41111859679222107,
+            -0.4840810298919678,
+            0.7686831951141357
+          ],
+          "rotation_mode": "XYZ"
+        },
+        {
+          "bone_name": "mixamorig:RightHandThumb4",
+          "local_position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "local_rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "world_position": [
+            -0.4144299328327179,
+            -0.029887400567531586,
+            0.6548805236816406
+          ],
+          "world_rotation": [
+            0.07597909867763519,
+            0.4111166000366211,
+            -0.48408252000808716,
+            0.7686836123466492
+          ],
+          "rotation_mode": "XYZ"
+        }
+      ]
+    }
+  }
+}

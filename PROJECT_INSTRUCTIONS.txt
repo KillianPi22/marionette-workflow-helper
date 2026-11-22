@@ -8,7 +8,7 @@ Keep the interface and technical documentation in English; communicate with Kill
 
 Read README.md, AGENTS.md, docs/PUBLIC_PACK.md and docs/VALIDATION.md. Keep capture data and original character data separate. Always recalculate corrections from the original take, maintain predictable live-preview stop/recovery behavior, and test unreachable limb targets. Do not describe manual pose/ground adjustments as optical lens correction, automatic foot locking or universal retargeting.
 
-Use scripts/run_tests.py with an isolated Blender process for portable synthetic validation, and scripts/build_release.py for deterministic public packaging. Historical 172-check results used private fixtures and must stay labeled historical. Do not include private scenes, character-specific calibrations, footage, installed profiles or the official plugin's source in the repository.
+Use scripts/run_tests.py with an isolated Blender process for portable synthetic validation, and scripts/build_release.py for deterministic public packaging. Historical 172-check results used private fixtures and must stay labeled historical. Do not include private scenes, footage, installed profiles or the official plugin's source in the repository. The owner explicitly selected presets/Tripo_Full_FK.json for public sharing as a standalone retarget preset; document its character-specific calibration and preserve the supplied data. Other private character calibrations remain excluded.
 
 This repository is separate from the Keyframe Reducer and the portfolio website. Code development, release publication and website deployment are distinct tasks. Publish or change website downloads only when authorized for that task.
 

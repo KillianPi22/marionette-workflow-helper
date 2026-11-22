@@ -17,7 +17,7 @@ The official Marionette application and its Blender plugin are separate requirem
 - Preview manual corrections interactively, compare with the source and build an editable corrected Action without accumulating offsets.
 - Tune flat or sloped ground compensation, including a height-based near-ground mode and per-foot controls.
 
-The interface is in English. The unchanged detailed guide records the original development history and private delivery; [public pack notes](docs/PUBLIC_PACK.md) clarify which presets and fixtures are included here.
+The interface is in English. The unchanged detailed guide records the original development history and private delivery; [public pack notes](docs/PUBLIC_PACK.md) clarify which presets and fixtures are included in the release archives.
 
 ## Install and capture
 
@@ -26,6 +26,19 @@ Download the installable `marionette_workflow-1.4.0.zip` from a published releas
 Prepare a capture copy, export its preset, then import and select that preset manually in the official Marionette panel. Connect, capture with Copy to DCC, disconnect, and use the helper to adjust or transfer the take. See the [English guide](marionette_workflow/README_EN.md) for the exact controls and supported setup.
 
 For an update to this version, install the **1.4.0** extension ZIP with Overwrite enabled and restart Blender. An older paragraph in the unchanged historical guide names a previous package version; this repository's manifest and release number are authoritative.
+
+## Retarget presets
+
+The owner-shared JSON presets are available directly from this repository:
+
+| Preset | Download | Scope |
+| --- | --- | --- |
+| [Mixamo Full FK Portable](marionette_workflow/presets/Mixamo_Full_FK_Portable.json) | [JSON](https://raw.githubusercontent.com/KillianPi22/marionette-workflow-helper/main/marionette_workflow/presets/Mixamo_Full_FK_Portable.json) | Four FK mappings: prefixed or unprefixed names, with hips-only or all mapped position channels. No saved character calibration. |
+| [Tripo Full FK](presets/Tripo_Full_FK.json) | [JSON](https://raw.githubusercontent.com/KillianPi22/marionette-workflow-helper/main/presets/Tripo_Full_FK.json) | Mixamo-named FK mapping with a saved reference pose for the character used to create it. |
+
+Import these files with **Import Presets** in the official **Marionette** Blender panel, then select the imported preset and the matching capture rig. They are retarget presets for the Blender plugin, not files to install as an add-on or import as characters in the standalone application. See the [preset guide](presets/README.md) for choosing a mapping and handling character-specific calibration.
+
+These are repository downloads. The published 1.4.0 release archives are unchanged; the Tripo JSON is a separate download.
 
 ## Limits
 
@@ -66,4 +79,4 @@ GitHub's build workflow checks Python syntax and package integrity; it does not 
 
 Read [AGENTS.md](AGENTS.md) and [PROJECT_INSTRUCTIONS.txt](PROJECT_INSTRUCTIONS.txt) before making changes. This repository is separate from the Blender Keyframe Reducer and portfolio website. Website download links and deployment are separate integration work.
 
-No official Marionette plugin, production character, mocap footage or project-specific calibration is included. This project is not affiliated with Marionette, Mixamo, Tripo or the Blender Foundation.
+No official Marionette plugin, production character mesh or mocap footage is included. The standalone Tripo preset linked above is the owner-shared character calibration; other private production calibrations are excluded. This project is not affiliated with Marionette, Mixamo, Tripo or the Blender Foundation.
